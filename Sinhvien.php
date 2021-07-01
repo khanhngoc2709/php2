@@ -48,9 +48,12 @@ class sinhVien{
 
 $ngoc = new sinhVien();
 $ngoc->nhap_hoc("Trương Khánh Ngọc", "PH11120", "web15302");
+$ngoc->chuyen_lop('web15301');
 $ngoc->display_data();
 
 $a = new sinhVien();
 $a->nhap_hoc(" Ngọc", "PH12345", "web15301");
+$a->chuyen_lop('web15303');
 $a->display_data();
+
 
